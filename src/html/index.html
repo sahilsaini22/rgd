@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> partials/head title="Royal Galaxy Dhaba"}}
+    
+
+    <style>
+      #map {
+      height: 500px;
+      width: 100%;  
+    }
+    </style>
+  </head>
+  <body>
+
+
+    <!-- NAVBAR -->
+    {{> partials/navbar variant="dark" toggle="true" page="index.html"}}
+    
+
+    <!-- WELCOME -->
+    <header data-jarallax data-speed=".8" style="background-image: url(assets/img/tabv2.jpg);">
+      <div class="d-flex flex-column min-vh-100 bg-black-50 pt-10 pt-md-8 pb-7 pb-md-0">
+        <div class="container my-auto">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6 text-center">
+
+              <!-- Preheading -->
+              <h6 class="text-xs text-white-75">
+                <span class="text-primary">Restaurant</span> 
+              </h6>
+
+              <!-- Heading -->
+              <h1 class="display-1 text-white mb-4">
+                Royal Galaxy Dhaba
+              </h1>
+
+              <!-- Subheading -->
+              
+
+              <!-- Button -->
+              
+
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md">
+
+              <!-- Social links
+              <ul class="list-inline text-center text-md-start mb-3 my-md-5">
+                <li class="list-inline-item">
+                  <a class="text-white-75 text-primary-hover" href="#!">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item ms-5">
+                  <a class="text-white-75 text-primary-hover" href="#!">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item ms-5">
+                  <a class="text-white-75 text-primary-hover" href="#!">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+             -->  
+
+            </div>
+            <div class="col-md">
+
+              <!-- Address -->
+              <p class="font-serif text-white-75 text-center text-md-end text-lg-end my-md-5">
+                <i class="fas fa-map-marker-alt text-primary me-3"></i> Tanda-53 Mile Road, Tanda
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- DISCOVER -->
+    <section class="pt-7 pt-md-9">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+
+            <!-- Divider -->
+            <hr class="hr-sm bg-primary">
+
+            <!-- Text -->
+            <p class="fs-lg lh-lg text-black mb-5 mb-md-0">
+              Walk in for the best food in town at an affordable price.
+            </p>
+
+          </div>
+          <div class="col-md-4">
+
+            <!-- Media -->
+            <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+
+              <!-- Border -->
+              <div class="media-decoration-border" data-jarallax-element="-40"></div>
+
+              <!-- Image -->
+              <img class="media-decoration-img img-fluid" src="assets/img/2.jpg" alt="...">
+
+            </div>
+
+          </div>
+          <div class="col-md-5 align-self-center mx-auto">
+
+            <!-- Heading -->
+            
+
+            <!-- Text -->
+            <p class="mb-0">
+              We offer dine-in and takeaway service. Our experienced and reliable team provides you with the best North Indian cuisine in the area.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISCOVER -->
+    <section class="py-7 py-md-9">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 order-md-2 align-self-end">
+
+            <!-- Divider -->
+            <hr class="hr-sm bg-primary">
+
+            <!-- Text -->
+            
+
+          </div>
+          <div class="col-md-4 order-md-3">
+
+            <!-- Media -->
+            <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+
+              <!-- Solid -->
+
+            </div>
+
+          </div>
+          <div class="col-md-5 order-md-1 align-self-center mx-auto">
+
+            <!-- Heading -->
+            
+
+            <!-- Text -->
+           
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section data-jarallax data-speed=".8" style="background-image: url(assets/img/dhaulad.jpeg);">
+      <div class="min-vh-100 py-7 py-md-9 bg-gradient-bottom-end-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+
+              <!-- Divider -->
+              <hr class="hr-sm bg-primary">
+
+              <!-- Text -->
+              <p class="fs-lg lh-lg text-black mb-0">
+                Step-in and enjoy our food and service with an excellent view of the majestic Dhauladhars.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- DISHES -->
+    <section class="py-7 py-md-9 overflow-hidden">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 text-center">
+
+            <!-- Heading -->
+            <h2 class="mb-2">
+              Our <em>featured</em> dishes
+            </h2>
+
+            <!-- Subheading -->
+          
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+
+            <!-- Slider -->
+            <div class="flickity-viewport-visible" data-flickity='{"cellAlign": "left", "contain": true, "imagesLoaded": true, "pageDots": false}'>
+              <div class="w-100 px-2" style="max-width: 320px;">
+
+                <!-- Card -->
+                <div class="card border-0">
+
+                  <!-- Image -->
+                  <img class="card-img-top" src="assets/img/26.jpg" alt="..." />
+
+                  <!-- Body -->
+                  <div class="card-body">
+
+                    <!-- Heading -->
+                    <div class="row mb-2">
+                      <div class="col">
+                        <h5 class="mb-0">Lorem ipsum dolor sit amet consectetur</h5>
+                      </div>
+                      <div class="col-auto">
+                        <span class="fs-4 font-serif text-black">$15</span>
+                      </div>
+                    </div>
+
+                    <!-- Text -->
+                    <p class="mb-0">
+                      In perspiciatis nisi dicta, aperiam magnam eaque laborum iste.
+                    </p>
+
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="w-100 px-2" style="max-width: 320px;">
+
+                <!-- Card -->
+                <div class="card border-0">
+
+                  <!-- Image -->
+                  <img class="card-img-top" src="assets/img/27.jpg" alt="..." />
+
+                  <!-- Body -->
+                  <div class="card-body">
+
+                    <!-- Heading -->
+                    <div class="row mb-2">
+                      <div class="col">
+                        <h5 class="mb-0">Lorem ipsum dolor sit amet consectetur</h5>
+                      </div>
+                      <div class="col-auto">
+                        <span class="fs-4 font-serif text-black">$18</span>
+                      </div>
+                    </div>
+
+                    <!-- Text -->
+                    <p class="mb-0">
+                      In perspiciatis nisi dicta, aperiam magnam eaque laborum iste.
+                    </p>
+
+                  </div>
+
+                </div>
+
+              </div>
+              
+              <div class="w-100 px-2" style="max-width: 320px;">
+
+                <!-- Card -->
+                <div class="card border-0">
+
+                  <!-- Image -->
+                  <img class="card-img-top" src="assets/img/paneerbm.jpeg" alt="..." />
+
+                  <!-- Body -->
+                  <div class="card-body">
+
+                    <!-- Heading -->
+                    <div class="row mb-2">
+                      <div class="col">
+                        <h5 class="mb-0">Kadhai Paneer</h5>
+                      </div>
+                      <div class="col-auto">
+                        <span class="fs-4 font-serif text-black">220</span>
+                      </div>
+                    </div>
+
+                    <!-- Text -->
+                    
+
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="w-100 px-2" style="max-width: 320px;">
+
+                <!-- Card -->
+                <div class="card border-0">
+
+                  <!-- Image -->
+                  <img class="card-img-top" src="assets/img/chillip.png" alt="..." />
+
+                  <!-- Body -->
+                  <div class="card-body">
+
+                    <!-- Heading -->
+                    <div class="row mb-2">
+                      <div class="col">
+                        <h5 class="mb-0">Chilli Cheese</h5>
+                      </div>  
+                      <div class="col-auto">
+                        <span class="fs-4 font-serif text-black">230</span>
+                      </div>
+                    </div>
+
+                    <!-- Text -->
+                    
+
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="w-100 px-2" style="max-width: 320px;">
+
+                <!-- Card -->
+                <div class="card border-0">
+
+                  <!-- Image -->
+                  <img class="card-img-top" src="assets/img/pbm.png" alt="..." />
+
+                  <!-- Body -->
+                  <div class="card-body">
+
+                    <!-- Heading -->
+                    <div class="row mb-2">
+                      <div class="col">
+                        <h5 class="mb-0">Paneer Butter Masala</h5>
+                      </div>
+                      <div class="col-auto">
+                        <span class="fs-4 font-serif text-black">220</span>
+                      </div>
+                    </div>
+
+                    <!-- Text -->
+                    <p class="mb-0">
+                      In perspiciatis nisi dicta, aperiam magnam eaque laborum iste.
+                    </p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="container">
+          <a class="btn btn-success"  role="button" href="{{webRoot}}/menu.html">
+            Full Menu
+            </a> 
+        </div> 
+      </div>
+    </section>
+
+    
+
+    
+
+
+
+
+    <!-- GALLERY -->
+    <section class=" py-7 py-md-9">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 text-center">
+
+            <!-- Heading -->
+            <h2 class="mb-2">
+              Our gallery
+            </h2>
+
+            <!-- Subheading -->
+            
+
+          </div>
+        </div>
+        <div class="row gx-3" data-isotope>
+          <div class="col-6 col-sm-6 col-md-4">
+
+            <!-- Item -->
+            <a class="d-block mb-3" href="#" data-bigpicture='{ "imgSrc": "assets/img/11.jpeg" }'>
+              <img class="img-fluid" src="assets/img/11.jpeg" alt="...">
+            </a>
+
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+
+            <!-- Item -->
+            <a class="d-block mb-3" href="#" data-bigpicture='{ "imgSrc": "assets/img/16.jpeg" }'>
+              <img class="img-fluid" src="assets/img/16.jpeg" alt="...">
+            </a>
+
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+
+            <!-- Item -->
+            <a class="d-block mb-3" href="#" data-bigpicture='{ "imgSrc": "assets/img/food1.jpeg" }'>
+              <img class="img-fluid" src="assets/img/food1.jpeg" alt="...">
+            </a>
+
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+
+            <!-- Item -->
+            <a class="d-block mb-3" href="#" data-bigpicture='{ "imgSrc": "assets/img/outv.jpeg" }'>
+              <img class="img-fluid" src="assets/img/outv.jpeg" alt="...">
+            </a>
+
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+
+            <!-- Item -->
+            <a class="d-block mb-3" href="#" data-bigpicture='{ "imgSrc": "assets/img/gate.jpg" }'>
+              <img class="img-fluid" src="assets/img/gate.jpg" alt="...">
+            </a>
+
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+
+            <!-- Item -->
+            <a class="d-block mb-3" href="#" data-bigpicture='{ "imgSrc": "assets/img/tabv1.jpg" }'>
+              <img class="img-fluid" src="assets/img/tabv1.jpg" alt="...">
+            </a>
+
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+
+            <!-- Item -->
+            <a class="d-block mb-3" href="#" data-bigpicture='{ "imgSrc": "assets/img/tabv3.jpeg" }'>
+              <img class="img-fluid" src="assets/img/tabv3.jpeg" alt="...">
+            </a>
+
+          </div>
+          <div class="col-6 col-sm-6 col-md-4">
+
+            <!-- Item -->
+            <a class="d-block mb-3" href="#" data-bigpicture='{ "imgSrc": "assets/img/food3.jpg" }'>
+              <img class="img-fluid" src="assets/img/food3.jpg" alt="...">
+            </a>
+
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+
+    <div class="container">
+      <a class="btn btn-success"  role="button" href="https://www.google.com/maps/dir//Royal+Galaxy+Dhaba+Tanda,+Near+RPGMC+Tanda+on+Tanda+-+53+Mile+Road+(300+meters+from+College+Gate,+Tanda,+Himachal+Pradesh+176001,+India/@32.1003914,76.2722067,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x391b4ffa9ab26a13:0xe8885ea286dd523!2m2!1d76.3073122!2d32.1004023!3e0?hl=en">
+        Navigate with Google Maps
+        </a> 
+    </div> 
+    <br/>
+
+
+
+    
+   
+    <div id="map"></div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRPCL-PqenTQIrrvz_RSEvb8z8jWV0_uo&callback=initMap&v=weekly"
+      defer
+    ></script>
+  
+
+    <!-- FOOTER -->
+    {{> partials/footer}}
+
+    <!-- TOAST -->
+    {{> partials/toast}}
+
+    <!-- JAVASCRIPT -->
+    {{> partials/scripts}}
+
+  </body>
+
+
+  <script>
+    // Initialize and add the map
+    function initMap() {
+    // The location of Uluru
+    const uluru = { lat: 32.1003962, lng: 76.3073081 };
+    // The map, centered at Uluru
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 17,
+      center: uluru,
+    });
+    // The marker, positioned at Uluru
+    const marker = new google.maps.Marker({
+      position: uluru,
+      map: map,
+    });
+  }
+  
+  //window.initMap = initMap;
+      
+    
+
+    
+    </script>  
+</html>

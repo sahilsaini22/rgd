@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> partials/head title="Contact: Royal Galaxy Dhaba"}}
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    {{> partials/navbar variant="dark" toggle="true" page="contact-us.html"}}
+
+    <!-- HEADER -->
+    <header data-jarallax data-speed=".8" style="background-image: url(assets/img/37.jpg);">
+      <div class="pt-10 pb-8 pt-md-15 pb-md-13 bg-black-50">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6 text-center">
+
+              <!-- Heading -->
+              <h1 class="display-6 fw-bold text-white">
+                Contact Us
+              </h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTACT -->
+    <section class="py-7 py-md-9">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 text-center">
+
+            <!-- Heading -->
+         
+
+            <!-- Subheading -->
+            
+
+          </div>
+        </div>
+        <div class="row">
+          <!--
+          <div class="col-md-3 order-md-2">
+          -->
+          <div class="mb-2">
+            <!-- Heading -->
+            <h4 class="mb-2 text-xs">
+              Write us
+            </h4>
+
+            <!-- Text -->
+            <p class="mb-4 font-serif">
+              <a href="mailto:admin@domain.com">info@royalgalaxydhaba.com</a>
+            </p>
+
+            <!-- Heading -->
+            <h4 class="mb-2 text-xs">
+              Call us
+            </h4>
+
+            <!-- Text -->
+            <p class="mb-4 font-serif">
+              <a href="tel:+91 7876408602">+91 7876408602</a>
+            </p>
+
+            
+            <!-- Heading -->
+            <h4 class="mb-2 text-xs">
+              Whatsapp Up
+            </h4>
+
+            <img  width="270px" height="270px" src="assets/img/wa.jpeg" alt="..." />
+            
+
+            <!-- Heading -->
+            <h4 class="mb-2 text-xs">
+              Visit us
+            </h4>
+
+            <!-- Text -->
+            <p class="mb-4 font-serif">
+              Medical College Road (Tanda-53 Mile Road)<br/>
+              Tanda, Distt. Kangra (H.P.)<br/>
+              176001
+            </p>
+            <a class="btn btn-success" role="button" href="https://www.google.com/maps/dir//Royal+Galaxy+Dhaba+Tanda,+Near+RPGMC+Tanda+on+Tanda+-+53+Mile+Road+(300+meters+from+College+Gate,+Tanda,+Himachal+Pradesh+176001,+India/@32.1003914,76.2722067,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x391b4ffa9ab26a13:0xe8885ea286dd523!2m2!1d76.3073122!2d32.1004023!3e0?hl=en">
+              Navigate with Google Maps
+              </a> 
+
+         
+        </div>
+      </div>
+
+      
+    </section>
+
+
+
+
+    <!-- MAP -->
+   
+    
+
+    <div id="map"></div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRPCL-PqenTQIrrvz_RSEvb8z8jWV0_uo&callback=initMap&v=weekly"
+      defer
+    ></script>
+
+    <!-- FOOTER -->
+    {{> partials/footer}}
+
+    <!-- TOAST -->
+    {{> partials/toast}}
+
+    <!-- JAVASCRIPT -->
+    {{> partials/scripts}}
+
+
+    <script>
+      // Initialize and add the map
+      function initMap() {
+      // The location of Uluru
+      const uluru = { lat: 32.1003962, lng: 76.3073081 };
+      // The map, centered at Uluru
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 17,
+        center: uluru,
+      });
+      // The marker, positioned at Uluru
+      const marker = new google.maps.Marker({
+        position: uluru,
+        map: map,
+      });
+    }
+    
+    //window.initMap = initMap;
+        
+      
+  
+      
+      </script>  
+
+  </body>
+
+
+
+  
+</html>
