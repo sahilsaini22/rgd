@@ -99,7 +99,7 @@ module.exports = {
     }),
     new HandlebarsPlugin({
       entry: path.join(process.cwd(), 'src', 'html', '**', '*.html'),
-      output: path.join(process.cwd(), 'dist', '[path]', '[name].html'),
+      output: path.join(process.cwd(), '', '[path]', '[name].html'),
       partials: [path.join(process.cwd(), 'src', 'partials', '**', '*.{html,svg}')],
       helpers: {
         is: function (v1, v2, options) {
